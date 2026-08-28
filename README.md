@@ -6,7 +6,7 @@ Sistema de análise e recomendação de produtos para afiliados.
 
 - React
 - Vite
-- JavaScript
+- TypeScript
 - Tailwind CSS
 - Python
 - FastAPI
