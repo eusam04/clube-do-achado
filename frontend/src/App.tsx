@@ -1,9 +1,10 @@
 import MainLayout from './layouts/MainLayout'
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
   return (
     <MainLayout>
-      <h1>Dashboard</h1>
+      <AppRoutes />
     </MainLayout>
   )
 }
