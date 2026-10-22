@@ -1,5 +1,5 @@
 function AnalisarProduto() {
-    return <h1>Analisar Produto</h1>
+  return <p>Aqui será feita a análise dos produtos.</p>
   }
   
   export default AnalisarProduto

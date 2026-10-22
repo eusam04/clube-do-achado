@@ -10,12 +10,13 @@ function MainLayout({ children }: MainLayoutProps) {
   return (
     <div>
       <Sidebar />
-      <Header titulo="Clube do Achado" />
+
+      <Header />
 
       <main>
-      {children}
-
+        {children}
       </main>
+
     </div>
   )
 }

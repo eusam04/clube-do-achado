@@ -1,5 +1,5 @@
 function Desempenho() {
-    return <h1>Desempenho</h1>
+  return <p>Aqui ficará o desempenho.</p>
   }
   
   export default Desempenho

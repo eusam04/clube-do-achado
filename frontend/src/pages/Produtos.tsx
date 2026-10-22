@@ -1,5 +1,6 @@
 function Produtos() {
-    return <h1>Produtos</h1>
+    return <p>Aqui ficarão os produtos.</p>
+  
   }
   
   export default Produtos

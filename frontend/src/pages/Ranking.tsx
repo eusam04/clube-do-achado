@@ -1,5 +1,5 @@
 function Ranking() {
-    return <h1>Ranking</h1>
+  return <p>Aqui ficará o ranking.</p>
   }
   
   export default Ranking
