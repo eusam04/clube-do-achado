@@ -3,13 +3,14 @@ import 'dotenv/config'
 import { connectToDatabase } from './config/database.js'
 import produtoRoutes from './routes/produtoRoutes.js'
 import publicacaoRoutes from './routes/publicacaoRoutes.js'
+import historicoDesempenhoRoutes from './routes/historicoDesempenhoRoutes.js'
 
 const app = express()
 
 app.use(express.json())
 app.use('/api/produtos', produtoRoutes)
 app.use('/api/publicacoes', publicacaoRoutes)
-
+app.use('/api/historico-desempenho', historicoDesempenhoRoutes)
 
 
 app.get('/api', (req, res) => {
