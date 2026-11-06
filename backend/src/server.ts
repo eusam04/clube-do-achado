@@ -1,11 +1,12 @@
 import express from 'express'
 import 'dotenv/config'
 import { connectToDatabase } from './config/database.js'
+import produtoRoutes from './routes/produtoRoutes.js'
 
 const app = express()
 
 app.use(express.json())
-
+app.use('/api/produtos', produtoRoutes)
 app.get('/api', (req, res) => {
   res.json({
     mensagem: 'API do Clube do Achado funcionando!'
